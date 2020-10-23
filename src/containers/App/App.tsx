@@ -1,20 +1,15 @@
 import React from 'react';
 
-// Assets
-import logo from '../../assets/logo.svg';
-
 // Styled components
-import { AppContainer, AppLogo, Header } from './styles';
+import { AppContainer } from './styles';
+
+// Components
+import { FalseNegative } from '../FalseNegative';
 
 function App() {
   return (
     <AppContainer>
-      <Header>
-        <AppLogo src={logo} alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-      </Header>
+      <FalseNegative />
     </AppContainer>
   );
 }

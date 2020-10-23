@@ -6,11 +6,13 @@ export const Button = styled.button.attrs({ type: 'button' })`
   border-radius: 3px;
   color: #ffffff;
   font-size: 1rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
   font-weight: 800;
   height: 40px;
-  min-width: 150px;
   padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
 
   &:hover {
     background: #282c34f1;
